@@ -11,5 +11,9 @@ body {
 }
 
 body {
-  font-family: --var(--base-font-family);
+  font-family: var(--base-font-family);
+}
+
+svg:not(:root) {
+  overflow: hidden;
 }
